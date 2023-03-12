@@ -1,3 +1,4 @@
+# This prints a greeting
 greeting = "Howdy, PyCharm"
 x = 1.0
 

@@ -1,11 +1,8 @@
-# This prints a greeting
-greeting = "Howdy, PyCharm"
-x = 1.0
+import pandas as pd
 
-if 1 == x:
-    print(greeting)
-else:
-    print("Failure")
+open('new_file.csv', 'wb')
+dataSet1 = {'Category': ['A', 'B', 'C'],
+            'Amounts': [1, 2, 4]}
+df = pd.DataFrame(dataSet1)
 
-
-
+df.to_csv('new_file.csv', sep=',', index=False)

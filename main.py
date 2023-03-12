@@ -1,3 +1,10 @@
-# This is a sample Python script.
+greeting = "Howdy, PyCharm"
+x = 1.0
 
-print("Howdy, PyCharm")
+if 1 == x:
+    print(greeting)
+else:
+    print("Failure")
+
+
+

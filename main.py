@@ -1,5 +1,6 @@
 import pandas as pd
 
+# Create csv file, dataframe, print to csv
 open('new_file.csv', 'wb')
 dataSet1 = {'Category': ['A', 'B', 'C'],
             'Amounts': [1, 2, 4]}

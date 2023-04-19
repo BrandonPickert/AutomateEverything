@@ -1,3 +1,23 @@
+import requests
+import json
+
+
+url = "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid="
+api_key = "42636c0c2b8f333b7781ecd02598b844"
+url_key = url + api_key
+print(url_key)
+
+response = response.get(f"{url_key}")
+
+
+
+
+
+
+
+
+
+
 import pandas as pd
 
 # Create csv file, dataframe, print to csv
